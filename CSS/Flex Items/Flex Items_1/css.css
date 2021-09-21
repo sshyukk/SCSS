@@ -3,10 +3,11 @@
   display: flex;
 }
 .container .item {
-  width: 100px;
+  width: auto;
   height: 100px;
   background-color: orange;
   font-size: 40px;
+  flex-grow: 1;
   border: 2px solid black;
   
 }
