@@ -9,8 +9,11 @@
   background-color: orange;
   font-size: 40px;
   border: 2px solid black;
-  flex-shrink: 0;
+  flex-shrink: 1;
   
+}
+.container .item:nth-child(2) {
+  flex-shrink: 4;
 }
 
 
