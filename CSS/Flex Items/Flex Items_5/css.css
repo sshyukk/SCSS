@@ -1,0 +1,33 @@
+.container {
+  width: 350px;
+  height: 300px;
+  border: 4px solid;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.container .item {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  font-size: 40px;
+  border: 2px solid black;  
+}
+.container .item:nth-child(1) {
+  align-self: flex-start;
+}
+.container .item:nth-child(6) {
+  align-self: flex-start;
+}
+.container .item:nth-child(2) {
+  align-self: center;
+}
+.container .item:nth-child(5) {
+  align-self: center;
+}
+
+
+
+
+
+
