@@ -1,8 +1,8 @@
 .container {
   border: 4px solid;
   display: grid;
-  grid-template-rows: 50px 50px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(2, 50px);
+  grid-template-columns: repeat(8, 1fr);
 }
 .container .item {
   border: 2px solid;
