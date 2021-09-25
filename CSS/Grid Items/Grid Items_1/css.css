@@ -5,6 +5,7 @@
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(3, 1fr);
+  grid-auto-flow: row;
 }
 .container .item {
   border: 2px solid;
@@ -12,8 +13,6 @@
   font-size: 20px;
 }
 .container .item:nth-child(1) {
-  grid-row-start: 2;
-  grid-row-end: 4;
-  grid-column-start: 2;
-  grid-column-end: 4;
+  grid-row-start: span 2;
+  grid-column-end: span 3;
 }
