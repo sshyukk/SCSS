@@ -9,8 +9,8 @@
   height: 150px;
   background-color: orange;
   transition-duration: 1s;
-  transform-origin: 100% 100%;
+  transform-origin: 50% 50%;
 }
 .container .item:hover {
-  transform: rotate(45deg);
+  transform: perspective(300px) rotateY(360deg);
 }
