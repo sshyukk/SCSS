@@ -1,0 +1,23 @@
+.container {
+  width: 150px;
+  height: 150px;
+  border: 4px solid black;
+  margin: 100px;
+  perspective: 300px;
+  perspective-origin: 50% 50%;
+  transform: perspective(300px) rotateX(45deg);
+  transform-style: preserve-3d;
+}
+.container .item {
+  width: 150px;
+  height: 150px;
+  background-color: orange;
+  transform: rotateY(45deg);
+  transform-style: preserve-3d;
+}
+.container .item .box {
+  width: 100px;
+  height: 100px;
+  background-color: royalblue;
+  transform: rotateX(45deg);
+}
