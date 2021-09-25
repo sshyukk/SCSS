@@ -8,6 +8,9 @@
     "main main aside"
     "none none aside"
     "footer footer footer";
+    grid-gap: 10px 40px;
+    grid-row-gap: 10px;
+    grid-column-gap: 40px;
 }
 .container > * {
   border: 2px solid;
