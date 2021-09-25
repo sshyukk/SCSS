@@ -3,6 +3,8 @@
   height: 150px;
   border: 4px solid black;
   margin: 100px;
+  perspective: 300px;
+  perspective-origin: 50% 50%;
 }
 .container .item {
   width: 150px;
@@ -12,5 +14,5 @@
   transform-origin: 50% 50%;
 }
 .container .item:hover {
-  transform: perspective(300px) rotateY(360deg);
+  transform: rotateY(45deg);
 }
