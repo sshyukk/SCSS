@@ -1,0 +1,27 @@
+.container {
+  width: 150px;
+  height: 200px;
+  border: 4px solid black;
+  perspective: 300px;
+}
+.container .item {
+  width: 150px;
+  height: 200px;
+  font-size: 60px;
+  transition-duration: 1s;
+  backface-visibility: hidden;
+}
+.container .item.front {
+  background-color: orange;
+  position: absolute;
+}
+.container .item.back {
+  background-color: royalblue;
+  transform: rotateY(-180deg);
+}
+.container:hover .item.front {
+  transform: rotateY(180deg);
+}
+.container:hover .item.back {
+  transform: rotateY(0);
+}
